@@ -3,6 +3,7 @@
 
 <head>
     <meta charset=utf-8 />
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     <title>Canvas</title>
 </head>
 
@@ -25,7 +26,7 @@
         }
 
         function ball(x, y, r) {
-            context.fillStyle = "BLUE";
+            context.fillStyle = "RED";
             context.beginPath();
             context.arc(x, y, r, 0, Math.PI * 2, true);
             context.closePath();
